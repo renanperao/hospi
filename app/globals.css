@@ -4,33 +4,33 @@
 
 
 :root {
-  /* High-Contrast Tech Airbnb Host Theme (Dark Mode) */
-  --background: oklch(0.145 0.01 260);
-  --foreground: oklch(0.98 0 0);
-  --card: oklch(0.18 0.015 260);
-  --card-foreground: oklch(0.98 0 0);
-  --popover: oklch(0.18 0.015 260);
-  --popover-foreground: oklch(0.98 0 0);
+  /* Crisp Light Tech Theme (Off-white / Ice Gray) */
+  --background: oklch(0.98 0.005 260); /* Off-white with a tiny hint of cool gray/blue (Ice Gray) */
+  --foreground: oklch(0.14 0.02 260); /* Deep slate for high text contrast */
+  --card: oklch(1 0 0); /* Pure white */
+  --card-foreground: oklch(0.14 0.02 260);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.14 0.02 260);
   
-  /* Primary: Vibrant Tech Coral (nod to Airbnb) */
-  --primary: oklch(0.65 0.22 25);
+  /* Primary: Deep Logo Purple */
+  --primary: oklch(0.35 0.15 285);
   --primary-foreground: oklch(0.98 0 0);
   
-  --secondary: oklch(0.23 0.02 260);
-  --secondary-foreground: oklch(0.98 0 0);
+  --secondary: oklch(0.95 0.01 260); /* Light cool gray */
+  --secondary-foreground: oklch(0.14 0.02 260);
   
-  --muted: oklch(0.23 0.02 260);
-  --muted-foreground: oklch(0.70 0.02 260);
+  --muted: oklch(0.95 0.01 260);
+  --muted-foreground: oklch(0.45 0.02 260);
   
-  /* Accent: Vibrant Indigo/Purple for technological glows/gradients */
-  --accent: oklch(0.62 0.20 280);
+  /* Accent: Bright Logo Purple for tech accents */
+  --accent: oklch(0.55 0.20 285);
   --accent-foreground: oklch(0.98 0 0);
   
   --destructive: oklch(0.55 0.20 25);
   --destructive-foreground: oklch(0.98 0 0);
   
-  --border: oklch(0.28 0.02 260);
-  --input: oklch(0.28 0.02 260);
+  --border: oklch(0.90 0.01 260);
+  --input: oklch(0.90 0.01 260);
   --ring: oklch(0.65 0.22 25);
   
   --chart-1: oklch(0.65 0.22 25);
@@ -41,13 +41,13 @@
   
   --radius: 0.75rem;
   
-  --sidebar: oklch(0.145 0.01 260);
-  --sidebar-foreground: oklch(0.98 0 0);
+  --sidebar: oklch(0.98 0.005 260);
+  --sidebar-foreground: oklch(0.14 0.02 260);
   --sidebar-primary: oklch(0.65 0.22 25);
   --sidebar-primary-foreground: oklch(0.98 0 0);
-  --sidebar-accent: oklch(0.23 0.02 260);
-  --sidebar-accent-foreground: oklch(0.98 0 0);
-  --sidebar-border: oklch(0.28 0.02 260);
+  --sidebar-accent: oklch(0.95 0.01 260);
+  --sidebar-accent-foreground: oklch(0.14 0.02 260);
+  --sidebar-border: oklch(0.90 0.01 260);
   --sidebar-ring: oklch(0.65 0.22 25);
 }
 
@@ -124,6 +124,13 @@
   
   .btn-glow:hover::before {
     opacity: 0.8;
+  }
+
+  .logo-text {
+    font-family: var(--font-sans);
+    letter-spacing: 0.25em;
+    font-weight: 500;
+    color: var(--primary);
   }
 }
 

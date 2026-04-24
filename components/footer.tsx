@@ -2,6 +2,8 @@
 
 import { motion } from "framer-motion"
 
+import Image from "next/image"
+
 const footerLinks = {
   produto: [
     { label: "Recursos", href: "#recursos" },
@@ -30,10 +32,16 @@ export function Footer() {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <a href="#" className="flex items-center gap-2.5 mb-4">
-              <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-accent">
-                <span className="text-sm font-bold text-accent-foreground">E</span>
-              </div>
-              <span className="text-xl font-semibold tracking-tight text-foreground">ESTYA</span>
+              <Image 
+                src="/images/logo.png" 
+                alt="ESTYA Logo" 
+                width={36} 
+                height={36} 
+                className="object-contain"
+              />
+              <span className="logo-text text-lg uppercase">
+                ESTY<span className="inline-block scale-x-110">Λ</span>
+              </span>
             </a>
             <p className="text-sm text-muted-foreground leading-relaxed max-w-xs">
               Hospitalidade Autônoma. Um concierge de voz e vídeo em cada QR Code da sua propriedade.

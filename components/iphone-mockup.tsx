@@ -24,9 +24,9 @@ export function IPhoneMockup() {
         transition={{ duration: 0.8 }}
         className="relative w-[280px] sm:w-[320px] shrink-0"
       >
-        <div className="relative rounded-[3rem] bg-black p-3 shadow-2xl shadow-black/50 border border-white/10">
+        <div className="relative rounded-[3rem] bg-black p-3 shadow-2xl shadow-foreground/20 border border-foreground/5">
           {/* Dynamic Island */}
-          <div className="absolute top-4 left-1/2 -translate-x-1/2 w-24 h-7 bg-black rounded-full z-20 border border-white/5" />
+          <div className="absolute top-4 left-1/2 -translate-x-1/2 w-24 h-7 bg-black rounded-full z-20" />
           
           {/* Screen */}
           <div className="relative overflow-hidden rounded-[2.5rem] bg-card aspect-[9/19]">

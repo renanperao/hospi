@@ -4,6 +4,7 @@ import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 const navItems = [
   { label: "Como funciona", href: "#como-funciona" },
@@ -27,12 +28,20 @@ export function Header() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2.5">
-            <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-accent">
-              <span className="text-sm font-bold text-accent-foreground">E</span>
-            </div>
-            <div className="flex flex-col leading-none">
-              <span className="text-xl font-semibold tracking-tight text-foreground">ESTYA</span>
-              <span className="text-[10px] text-muted-foreground tracking-wide hidden sm:block">Concierge de IA para anfitriões</span>
+            <Image 
+              src="/images/logo.png" 
+              alt="ESTYA Logo" 
+              width={36} 
+              height={36} 
+              className="object-contain"
+            />
+            <div className="flex flex-col leading-none ml-1">
+              <span className="logo-text text-lg uppercase">
+                ESTY<span className="inline-block scale-x-110">Λ</span>
+              </span>
+              <span className="text-[9px] text-muted-foreground tracking-[0.1em] uppercase hidden sm:block">
+                Hospitalidade Autônoma
+              </span>
             </div>
           </a>
 

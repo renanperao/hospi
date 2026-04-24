@@ -19,21 +19,13 @@ export function Hero() {
 
   return (
     <section ref={containerRef} className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden" style={{ position: 'relative' }}>
-      {/* Hero Background Image */}
-      <motion.div 
-        className="absolute inset-0 z-0"
-        style={{ y: imageY, scale: imageScale }}
-      >
-        <Image
-          src="/images/hero-luxury-home.jpg"
-          alt="Casa de luxo moderna ao entardecer"
-          fill
-          className="object-cover"
-          priority
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background" />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-transparent to-background/60" />
-      </motion.div>
+      {/* Clean Tech Background */}
+      <div className="absolute inset-0 z-0 bg-background overflow-hidden">
+        <div className="absolute top-[-20%] left-[-10%] w-[50%] h-[50%] rounded-full bg-primary/5 blur-[120px]" />
+        <div className="absolute bottom-[-20%] right-[-10%] w-[50%] h-[50%] rounded-full bg-accent/5 blur-[120px]" />
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:24px_24px]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/50 to-background" />
+      </div>
 
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 md:py-32">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
@@ -128,11 +120,11 @@ export function Hero() {
 
             {/* Main Card with QR Plaque Image */}
             <div 
-              className="relative w-full max-w-md overflow-hidden rounded-3xl bg-card/60 backdrop-blur-2xl shadow-2xl"
+              className="relative w-full max-w-md overflow-hidden rounded-3xl bg-card shadow-[0_20px_50px_-12px_rgba(0,0,0,0.1)]"
               style={{ border: '0.5px solid var(--border)' }}
             >
               {/* QR Plaque Image */}
-              <div className="relative aspect-[4/3] overflow-hidden">
+              <div className="relative aspect-video overflow-hidden">
                 <Image
                   src="/images/qr-plaque.jpg"
                   alt="Placa premium com QR Code sendo escaneada"
