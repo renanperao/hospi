@@ -3,7 +3,7 @@ import { MetadataRoute } from 'next'
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://hospi.com.br',
+      url: 'https://estya.com.br',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 1,

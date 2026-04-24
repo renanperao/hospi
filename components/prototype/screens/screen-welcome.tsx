@@ -24,7 +24,7 @@ export function ScreenWelcome({ onNext }: ScreenWelcomeProps) {
           <p className="text-[9px] font-medium uppercase tracking-[0.15em] text-background/40">
             Concierge Virtual
           </p>
-          <p className="text-lg font-bold text-background leading-none mt-0.5">HOSPI</p>
+          <p className="text-lg font-bold text-background leading-none mt-0.5">ESTYA</p>
         </div>
       </motion.div>
 

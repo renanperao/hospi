@@ -19,7 +19,7 @@ export default function Home() {
       {/* iPhone Simulator Section */}
       <section className="py-16 sm:py-24 bg-gradient-to-b from-background via-secondary/30 to-background">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
+          <div className="text-center mb-8">
             <p className="text-sm uppercase tracking-widest text-muted-foreground mb-4">
               Veja em ação
             </p>

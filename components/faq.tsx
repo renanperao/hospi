@@ -29,7 +29,7 @@ const faqs = [
   {
     question: "Funciona com Airbnb, Booking e VRBO?",
     answer:
-      "Sim. O HOSPI funciona de forma independente das plataformas — é uma placa física no imóvel, não um plugin. O hóspede acessa pelo QR Code, independente de onde reservou. Integrações de API com plataformas estão disponíveis no plano Gestores.",
+      "Sim. O ESTYA funciona de forma independente das plataformas — é uma placa física no imóvel, não um plugin. O hóspede acessa pelo QR Code, independente de onde reservou. Integrações de API com plataformas estão disponíveis no plano Gestores.",
   },
   {
     question: "Posso personalizar o que a IA responde?",

@@ -27,7 +27,7 @@ export function ScreenChat({ onBack }: ScreenChatProps) {
           </div>
           <div>
             <p className="text-[10px] font-semibold text-foreground leading-none">
-              Concierge HOSPI
+              Concierge ESTYA
             </p>
             <p className="text-[8px] text-emerald-500 mt-0.5">online agora</p>
           </div>
@@ -83,7 +83,7 @@ export function ScreenChat({ onBack }: ScreenChatProps) {
             <p className="text-[10.5px] text-muted-foreground leading-relaxed">
               A rede é{" "}
               <span className="font-semibold text-foreground">Villa_Azure_5G</span> e a senha é{" "}
-              <span className="font-semibold text-foreground">HospiAzure2024</span>. Boa conexão! 😊
+              <span className="font-semibold text-foreground">EstyaAzure2024</span>. Boa conexão! 😊
             </p>
           </div>
         </motion.div>

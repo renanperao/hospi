@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'HOSPI | Pare de responder mensagens de hóspede às 23h',
+  title: 'ESTYA | Pare de responder mensagens de hóspede às 23h',
   description: 'Placa física com QR Code + IA com a sua voz. Seu hóspede escaneia e é atendido na hora — sem app, sem você precisar responder. Para Airbnbs, villas e casas de temporada.',
   keywords: [
     'automatizar airbnb',
@@ -22,29 +22,29 @@ export const metadata: Metadata = {
     'concierge IA aluguel temporada',
     'reduzir mensagens airbnb',
   ],
-  authors: [{ name: 'HOSPI' }],
+  authors: [{ name: 'ESTYA' }],
   alternates: {
-    canonical: 'https://hospi.com.br',
+    canonical: 'https://estya.com.br',
   },
   openGraph: {
     type: 'website',
     locale: 'pt_BR',
-    url: 'https://hospi.com.br',
-    title: 'HOSPI | Pare de responder mensagens de hóspede às 23h',
+    url: 'https://estya.com.br',
+    title: 'ESTYA | Pare de responder mensagens de hóspede às 23h',
     description: 'Placa física com QR Code + IA com a sua voz. Seu hóspede escaneia e é atendido na hora — sem app, sem você precisar responder.',
-    siteName: 'HOSPI',
+    siteName: 'ESTYA',
     images: [
       {
         url: '/images/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'HOSPI — Concierge de IA para anfitriões de imóveis de temporada',
+        alt: 'ESTYA — Concierge de IA para anfitriões de imóveis de temporada',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'HOSPI | Pare de responder mensagens de hóspede às 23h',
+    title: 'ESTYA | Pare de responder mensagens de hóspede às 23h',
     description: 'Placa física com QR Code + IA com a sua voz. Seu hóspede escaneia e é atendido na hora — sem app, sem você precisar responder.',
     images: ['/images/og-image.jpg'],
   },
@@ -88,9 +88,9 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Product",
-              "name": "HOSPI",
+              "name": "ESTYA",
               "description": "Concierge físico + digital para anfitriões de imóveis de temporada. Placa com QR Code + IA com a voz do anfitrião.",
-              "brand": { "@type": "Brand", "name": "HOSPI" },
+              "brand": { "@type": "Brand", "name": "ESTYA" },
               "offers": [
                 {
                   "@type": "Offer",

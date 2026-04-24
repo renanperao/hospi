@@ -29,7 +29,7 @@ const plans = [
       "Múltiplas placas",
     ],
     cta: "Começar com o Essencial",
-    ctaHref: "https://wa.me/5500000000000?text=Olá!%20Tenho%20interesse%20no%20plano%20Essencial%20do%20HOSPI.",
+    ctaHref: "https://wa.me/5500000000000?text=Olá!%20Tenho%20interesse%20no%20plano%20Essencial%20do%20ESTYA.",
     highlight: false,
   },
   {
@@ -43,7 +43,7 @@ const plans = [
     format: "Equipe vai até você",
     features: [
       "Tudo do Essencial",
-      "Visita presencial da equipe HOSPI",
+      "Visita presencial da equipe ESTYA",
       "Produção de fotos e vídeos profissionais",
       "Até 3 placas QR Code instaladas no local",
       "Onboarding dedicado",
@@ -54,7 +54,7 @@ const plans = [
     ],
     notIncluded: [],
     cta: "Quero o Premium",
-    ctaHref: "https://wa.me/5500000000000?text=Olá!%20Tenho%20interesse%20no%20plano%20Premium%20do%20HOSPI.",
+    ctaHref: "https://wa.me/5500000000000?text=Olá!%20Tenho%20interesse%20no%20plano%20Premium%20do%20ESTYA.",
     highlight: true,
   },
   {
@@ -76,7 +76,7 @@ const plans = [
     ],
     notIncluded: [],
     cta: "Falar com um especialista",
-    ctaHref: "https://wa.me/5500000000000?text=Olá!%20Administro%20múltiplos%20imóveis%20e%20quero%20saber%20mais%20sobre%20o%20plano%20Gestores%20do%20HOSPI.",
+    ctaHref: "https://wa.me/5500000000000?text=Olá!%20Administro%20múltiplos%20imóveis%20e%20quero%20saber%20mais%20sobre%20o%20plano%20Gestores%20do%20ESTYA.",
     highlight: false,
   },
 ]

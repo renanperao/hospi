@@ -94,7 +94,7 @@ export function HardwareSection() {
             >
               <Image
                 src="/images/qr-plaque.jpg"
-                alt="Placa HOSPI em madeira nobre"
+                alt="Placa ESTYA em madeira nobre"
                 fill
                 className="object-cover"
               />
@@ -107,7 +107,7 @@ export function HardwareSection() {
                 className="absolute bottom-6 left-6 right-6 rounded-2xl bg-card/80 backdrop-blur-2xl p-4"
                 style={{ border: '0.5px solid var(--border)' }}
               >
-                <p className="text-sm font-medium text-foreground mb-1">Placa Premium HOSPI</p>
+                <p className="text-sm font-medium text-foreground mb-1">Placa Premium ESTYA</p>
                 <p className="text-xs text-muted-foreground">Madeira Nogueira com QR Code gravado a laser</p>
               </motion.div>
             </div>

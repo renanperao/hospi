@@ -49,7 +49,7 @@ export function FinalCTA() {
             </h2>
 
             <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto mb-10 text-pretty">
-              Em menos de 24 horas, o HOSPI estará atendendo seus hóspedes com a sua voz — a qualquer hora, sem você precisar responder uma única mensagem.
+              Em menos de 24 horas, o ESTYA estará atendendo seus hóspedes com a sua voz — a qualquer hora, sem você precisar responder uma única mensagem.
             </p>
 
             {/* Onboarding Steps */}
@@ -81,7 +81,7 @@ export function FinalCTA() {
                 className="btn-glow bg-accent text-accent-foreground hover:bg-accent/90 gap-2 h-14 sm:h-16 px-8 sm:px-10 text-base sm:text-lg font-medium shadow-lg shadow-accent/20 transition-all duration-300 hover:scale-[1.02]"
                 asChild
               >
-                <a href="https://wa.me/5500000000000?text=Olá!%20Quero%20entrar%20no%20beta%20do%20HOSPI.">
+                <a href="https://wa.me/5500000000000?text=Olá!%20Quero%20entrar%20no%20beta%20do%20ESTYA.">
                   Quero entrar no beta
                   <ArrowRight className="h-5 w-5" />
                 </a>

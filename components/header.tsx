@@ -28,10 +28,10 @@ export function Header() {
           {/* Logo */}
           <a href="#" className="flex items-center gap-2.5">
             <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-accent">
-              <span className="text-sm font-bold text-accent-foreground">H</span>
+              <span className="text-sm font-bold text-accent-foreground">E</span>
             </div>
             <div className="flex flex-col leading-none">
-              <span className="text-xl font-semibold tracking-tight text-foreground">HOSPI</span>
+              <span className="text-xl font-semibold tracking-tight text-foreground">ESTYA</span>
               <span className="text-[10px] text-muted-foreground tracking-wide hidden sm:block">Concierge de IA para anfitriões</span>
             </div>
           </a>

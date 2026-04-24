@@ -15,14 +15,14 @@ export function IPhoneMockup() {
   const BAR_COUNT = 12
 
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-16">
+    <div className="flex flex-col lg:flex-row items-center justify-center gap-4 lg:gap-8">
       {/* iPhone Frame */}
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.3 }}
         transition={{ duration: 0.8 }}
-        className="relative mx-auto w-[280px] sm:w-[320px] shrink-0"
+        className="relative w-[280px] sm:w-[320px] shrink-0"
       >
         <div className="relative rounded-[3rem] bg-foreground/90 p-3 shadow-2xl shadow-foreground/20">
           {/* Dynamic Island */}
@@ -74,7 +74,7 @@ export function IPhoneMockup() {
               <div className="p-4 space-y-4">
                 {/* Title */}
                 <div>
-                  <p className="text-xs text-muted-foreground">Villa Azure · Concierge HOSPI</p>
+                  <p className="text-xs text-muted-foreground">Villa Azure · Concierge ESTYA</p>
                   <p className="text-sm font-semibold text-foreground">Como usar a sauna</p>
                 </div>
 

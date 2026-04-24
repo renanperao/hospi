@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://hospi.com.br/sitemap.xml',
+    sitemap: 'https://estya.com.br/sitemap.xml',
   }
 }

@@ -31,9 +31,9 @@ export function Footer() {
           <div className="col-span-2 md:col-span-1">
             <a href="#" className="flex items-center gap-2.5 mb-4">
               <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-accent">
-                <span className="text-sm font-bold text-accent-foreground">H</span>
+                <span className="text-sm font-bold text-accent-foreground">E</span>
               </div>
-              <span className="text-xl font-semibold tracking-tight text-foreground">HOSPI</span>
+              <span className="text-xl font-semibold tracking-tight text-foreground">ESTYA</span>
             </a>
             <p className="text-sm text-muted-foreground leading-relaxed max-w-xs">
               Hospitalidade Autônoma. Um concierge de voz e vídeo em cada QR Code da sua propriedade.
@@ -99,7 +99,7 @@ export function Footer() {
           className="mt-12 pt-8 border-t border-border/50 flex flex-col sm:flex-row items-center justify-between gap-4"
         >
           <p className="text-sm text-muted-foreground">
-            HOSPI — Hospitalidade Autônoma para Refúgios Extraordinários.
+            ESTYA — Hospitalidade Autônoma para Refúgios Extraordinários.
           </p>
           <div className="flex items-center gap-4">
             <a

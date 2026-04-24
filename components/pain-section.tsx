@@ -83,7 +83,7 @@ export function PainSection() {
           className="text-center mb-10"
         >
           <p className="text-sm uppercase tracking-widest text-muted-foreground mb-4">
-            Antes e depois do HOSPI
+            Antes e depois do ESTYA
           </p>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-balance">
             Você reconhece{" "}
@@ -101,7 +101,7 @@ export function PainSection() {
           className="max-w-2xl mx-auto text-center mb-16"
         >
           <p className="text-base text-muted-foreground leading-relaxed">
-            O HOSPI é uma <span className="text-foreground font-medium">placa física com QR Code</span> instalada no seu imóvel. O hóspede escaneia e conversa com uma IA que fala com a sua voz — respondendo dúvidas, orientando sobre o imóvel e vendendo serviços extras. Tudo sem você precisar estar disponível.
+            O ESTYA é uma <span className="text-foreground font-medium">placa física com QR Code</span> instalada no seu imóvel. O hóspede escaneia e conversa com uma IA que fala com a sua voz — respondendo dúvidas, orientando sobre o imóvel e vendendo serviços extras. Tudo sem você precisar estar disponível.
           </p>
         </motion.div>
 
@@ -118,7 +118,7 @@ export function PainSection() {
               <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-red-500/10 border border-red-500/20">
                 <X className="h-5 w-5 text-red-400" />
               </div>
-              <h3 className="text-xl font-semibold">Sem o HOSPI</h3>
+              <h3 className="text-xl font-semibold">Sem o ESTYA</h3>
             </motion.div>
 
             <div className="space-y-4">
@@ -138,7 +138,7 @@ export function PainSection() {
             </div>
           </div>
 
-          {/* HOSPI Experience */}
+          {/* ESTYA Experience */}
           <div>
             <motion.div
               initial={{ opacity: 0 }}
@@ -149,7 +149,7 @@ export function PainSection() {
               <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-emerald-500/10 border border-emerald-500/20">
                 <Check className="h-5 w-5 text-emerald-400" />
               </div>
-              <h3 className="text-xl font-semibold">Com o HOSPI</h3>
+              <h3 className="text-xl font-semibold">Com o ESTYA</h3>
             </motion.div>
 
             <div className="space-y-4">

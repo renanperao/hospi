@@ -150,7 +150,7 @@ export function Hero() {
                     <span className="text-sm font-bold text-accent">IA</span>
                   </div>
                   <div>
-                  <p className="text-sm font-semibold text-foreground">Concierge HOSPI</p>
+                  <p className="text-sm font-semibold text-foreground">Concierge ESTYA</p>
                   <p className="text-xs text-muted-foreground">Atendimento instantâneo · pagamento via PIX</p>
                 </div>
               </div>
