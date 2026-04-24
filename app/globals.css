@@ -4,40 +4,51 @@
 
 
 :root {
-  /* Warm Minimalist Luxury Theme */
-  --background: oklch(0.97 0.008 75);
-  --foreground: oklch(0.18 0.015 60);
-  --card: oklch(0.98 0.006 75);
-  --card-foreground: oklch(0.18 0.015 60);
-  --popover: oklch(0.98 0.006 75);
-  --popover-foreground: oklch(0.18 0.015 60);
-  --primary: oklch(0.65 0.06 65);
-  --primary-foreground: oklch(0.18 0.015 60);
-  --secondary: oklch(0.92 0.012 75);
-  --secondary-foreground: oklch(0.18 0.015 60);
-  --muted: oklch(0.90 0.01 75);
-  --muted-foreground: oklch(0.45 0.02 60);
-  --accent: oklch(0.70 0.08 55);
-  --accent-foreground: oklch(0.98 0.006 75);
-  --destructive: oklch(0.55 0.2 25);
-  --destructive-foreground: oklch(0.98 0.006 75);
-  --border: oklch(0.88 0.015 75);
-  --input: oklch(0.95 0.008 75);
-  --ring: oklch(0.65 0.06 65);
-  --chart-1: oklch(0.65 0.06 65);
-  --chart-2: oklch(0.55 0.05 55);
-  --chart-3: oklch(0.45 0.04 60);
-  --chart-4: oklch(0.70 0.08 55);
-  --chart-5: oklch(0.60 0.06 70);
+  /* High-Contrast Tech Airbnb Host Theme (Dark Mode) */
+  --background: oklch(0.145 0.01 260);
+  --foreground: oklch(0.98 0 0);
+  --card: oklch(0.18 0.015 260);
+  --card-foreground: oklch(0.98 0 0);
+  --popover: oklch(0.18 0.015 260);
+  --popover-foreground: oklch(0.98 0 0);
+  
+  /* Primary: Vibrant Tech Coral (nod to Airbnb) */
+  --primary: oklch(0.65 0.22 25);
+  --primary-foreground: oklch(0.98 0 0);
+  
+  --secondary: oklch(0.23 0.02 260);
+  --secondary-foreground: oklch(0.98 0 0);
+  
+  --muted: oklch(0.23 0.02 260);
+  --muted-foreground: oklch(0.70 0.02 260);
+  
+  /* Accent: Vibrant Indigo/Purple for technological glows/gradients */
+  --accent: oklch(0.62 0.20 280);
+  --accent-foreground: oklch(0.98 0 0);
+  
+  --destructive: oklch(0.55 0.20 25);
+  --destructive-foreground: oklch(0.98 0 0);
+  
+  --border: oklch(0.28 0.02 260);
+  --input: oklch(0.28 0.02 260);
+  --ring: oklch(0.65 0.22 25);
+  
+  --chart-1: oklch(0.65 0.22 25);
+  --chart-2: oklch(0.62 0.20 280);
+  --chart-3: oklch(0.70 0.15 220);
+  --chart-4: oklch(0.75 0.15 150);
+  --chart-5: oklch(0.80 0.15 80);
+  
   --radius: 0.75rem;
-  --sidebar: oklch(0.95 0.008 75);
-  --sidebar-foreground: oklch(0.18 0.015 60);
-  --sidebar-primary: oklch(0.65 0.06 65);
-  --sidebar-primary-foreground: oklch(0.18 0.015 60);
-  --sidebar-accent: oklch(0.92 0.012 75);
-  --sidebar-accent-foreground: oklch(0.18 0.015 60);
-  --sidebar-border: oklch(0.88 0.015 75);
-  --sidebar-ring: oklch(0.65 0.06 65);
+  
+  --sidebar: oklch(0.145 0.01 260);
+  --sidebar-foreground: oklch(0.98 0 0);
+  --sidebar-primary: oklch(0.65 0.22 25);
+  --sidebar-primary-foreground: oklch(0.98 0 0);
+  --sidebar-accent: oklch(0.23 0.02 260);
+  --sidebar-accent-foreground: oklch(0.98 0 0);
+  --sidebar-border: oklch(0.28 0.02 260);
+  --sidebar-ring: oklch(0.65 0.22 25);
 }
 
 
@@ -112,7 +123,7 @@
   }
   
   .btn-glow:hover::before {
-    opacity: 0.4;
+    opacity: 0.8;
   }
 }
 

@@ -24,18 +24,18 @@ export function IPhoneMockup() {
         transition={{ duration: 0.8 }}
         className="relative w-[280px] sm:w-[320px] shrink-0"
       >
-        <div className="relative rounded-[3rem] bg-foreground/90 p-3 shadow-2xl shadow-foreground/20">
+        <div className="relative rounded-[3rem] bg-black p-3 shadow-2xl shadow-black/50 border border-white/10">
           {/* Dynamic Island */}
-          <div className="absolute top-4 left-1/2 -translate-x-1/2 w-24 h-7 bg-foreground rounded-full z-20" />
+          <div className="absolute top-4 left-1/2 -translate-x-1/2 w-24 h-7 bg-black rounded-full z-20 border border-white/5" />
           
           {/* Screen */}
           <div className="relative overflow-hidden rounded-[2.5rem] bg-card aspect-[9/19]">
             {/* Status Bar */}
-            <div className="absolute top-0 inset-x-0 h-12 bg-gradient-to-b from-foreground/10 to-transparent z-10 flex items-center justify-between px-8 pt-2">
-              <span className="text-[10px] font-medium text-foreground/60">9:41</span>
+            <div className="absolute top-0 inset-x-0 h-12 bg-gradient-to-b from-black/20 to-transparent z-10 flex items-center justify-between px-8 pt-2">
+              <span className="text-[10px] font-medium text-foreground">9:41</span>
               <div className="flex items-center gap-1">
-                <div className="w-4 h-2 border border-foreground/40 rounded-sm">
-                  <div className="w-3/4 h-full bg-foreground/40 rounded-sm" />
+                <div className="w-4 h-2 border border-foreground/80 rounded-sm">
+                  <div className="w-3/4 h-full bg-foreground/80 rounded-sm" />
                 </div>
               </div>
             </div>
@@ -65,8 +65,8 @@ export function IPhoneMockup() {
                 </motion.div>
 
                 {/* Video Duration */}
-                <div className="absolute bottom-3 right-3 px-2 py-1 rounded-md bg-foreground/70 backdrop-blur-sm">
-                  <span className="text-[10px] font-medium text-background">0:42</span>
+                <div className="absolute bottom-3 right-3 px-2 py-1 rounded-md bg-black/70 backdrop-blur-sm">
+                  <span className="text-[10px] font-medium text-white">0:42</span>
                 </div>
               </div>
 
@@ -105,9 +105,9 @@ export function IPhoneMockup() {
                 <motion.button
                   animate={prefersReducedMotion ? {} : { 
                     boxShadow: [
-                      "0 0 0 0 rgba(180, 140, 100, 0)",
-                      "0 0 0 12px rgba(180, 140, 100, 0.15)",
-                      "0 0 0 0 rgba(180, 140, 100, 0)"
+                      "0 0 0 0 rgba(139, 92, 246, 0)",
+                      "0 0 0 12px rgba(139, 92, 246, 0.25)",
+                      "0 0 0 0 rgba(139, 92, 246, 0)"
                     ]
                   }}
                   transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
