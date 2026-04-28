@@ -64,13 +64,3 @@ pnpm lint
 ## Direcao do projeto
 
 Mais do que uma landing "bonita", aqui a ideia foi construir uma pagina com argumento comercial claro. O tom mistura luxo discreto, tecnologia e operacao pratica. A placa fisica nao aparece como detalhe cenografico; ela e parte central do produto. A IA tambem nao entra como buzzword solta: entra como ferramenta para reduzir atrito, acelerar resposta e abrir nova receita no imovel.
-
-## Pontos de atencao
-
-- O nome no `package.json` ainda esta como `my-project`.
-- Existem alguns textos com encoding quebrado em partes da base; vale revisar se o deploy final estiver lendo tudo em UTF-8.
-- As URLs de WhatsApp nos CTAs ainda usam numero placeholder.
-
-## Proximo passo natural
-
-Antes de publicar, faz sentido alinhar tres coisas: nome do pacote, numero real dos CTAs e imagem social de compartilhamento para fechar o pacote com cara de producao.
